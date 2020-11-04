@@ -1,0 +1,78 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Navigation */
+.navigation {
+  background-image: url("../images/navbar.jpg");
+  object-fit: cover;
+  padding: 12px 0;
+}
+
+.navigation i {
+  font-size: 50px;
+  color: #e9d820;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 42px;
+}
+
+.navigation a {
+  color: #fff;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+.navigation .btn {
+  display: inline-block;
+  min-width: 300px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #e9d820;
+}
+
+.navigation .splash {
+  height: 533px;
+  min-width: 200px;
+  margin-top: 130px;
+  text-align: center;
+  font-family: "Quattrocento Sans", sans-serif;
+  color: #fff;
+}
+
+.navigation h2 {
+  font-style: italic;
+  font-size: 35px;
+}
+
+.navigation h1 {
+  font-weight: bold;
+  font-size: 85px;
+}
+
+/* Services */
+.services {
+  height: 500px;
+}
+
+/* Media */
+@media (max-width: 767px) {
+  .navigation li {
+    display: block;
+  }
+}
+/*# sourceMappingURL=style.css.map */
