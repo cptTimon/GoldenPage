@@ -7,6 +7,19 @@
 $font-text: 'Oswald', sans-serif;
 $font-header: 'Quattrocento Sans', sans-serif;
 
+h3 {
+    padding: 20px 0 0 0;
+    font-family: $font-header;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: $font-header;
+    font-size: 20px;
+    font-style: italic;
+}
+
 /* Navigation */
 
 .navigation {
@@ -19,14 +32,14 @@ $font-header: 'Quattrocento Sans', sans-serif;
         color: #e9d820;
     }
 
-    ul{
+    ul {
         margin: 0;
         padding: 0;
         list-style-type: none;
         text-align: right;
     }
 
-    li{
+    li {
         display: inline-block;
         margin-right: 42px;
     }
@@ -49,7 +62,7 @@ $font-header: 'Quattrocento Sans', sans-serif;
         background-color: #e9d820;
     }
 
-    .splash{
+    .splash {
         height: 533px;
         min-width: 200px;
         margin-top: 130px;
@@ -63,7 +76,7 @@ $font-header: 'Quattrocento Sans', sans-serif;
         font-size: 35px;
     }
 
-    h1{
+    h1 {
         font-weight: bold;
         font-size: 85px;
     }
@@ -73,12 +86,12 @@ $font-header: 'Quattrocento Sans', sans-serif;
 /* Services */
 
 .services {
-    height: 500px;
+    height: 100vh;
     margin: 70px 0;
     padding: 20px;
     text-align: center;
 
-    .services-card{
+    .services-card {
         justify-content: space-between;
         margin-top: 50px;
     }
@@ -95,29 +108,47 @@ $font-header: 'Quattrocento Sans', sans-serif;
         font-weight: bold;
     }
 
-    h3 {
-        padding: 20px 0 0 0;
-        font-family: $font-header;
-        font-size: 60px;
-        font-weight: bold;
-    }
-
-    h4{
-        font-family: $font-header;
-        font-size: 20px;
-        font-style: italic;
-    }
-
-    h5{
+    h5 {
         font-family: $font-header;
         font-weight: bold;
     }
 
-    p{
+    p {
         text-shadow: 0 0 #000000;
     }
 }
 
+
+/* Portfolio */
+
+.portfolio {
+
+    background-color: #E6F2F1;
+    text-align: center;
+
+    .cards {
+        justify-content: space-evenly;
+
+    }
+    .card{
+        height: 350px;
+        width: 100%;
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    img {
+        height: 70%;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    h5 {
+        font-family: $font-header;
+        font-weight: bold;
+        margin-top: 8px;
+    }
+}
 
 /* Media */
 
