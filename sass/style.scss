@@ -166,7 +166,17 @@ p {
     h5 {
         font-family: $font-header;
         font-weight: bold;
-        margin-top: 12px;
+        margin-top: 16px;
+    }
+
+    a {
+        color: #212529;
+    }
+
+    a:hover {
+        color: #e9d820;
+        cursor: pointer;
+        text-decoration: none;
     }
 }
 
@@ -178,6 +188,7 @@ footer {
 
 .social {
     text-align: center;
+    align-items: center;
 
     i {
         font-size: 40px;
@@ -189,6 +200,10 @@ footer {
         margin: auto 10px;
     }
 
+    p {
+        font-size: 20px;
+    }
+
 
 }
 
@@ -196,6 +211,7 @@ footer {
 
 @media (max-width: 767px) {
 
+/* Navigation-mobile-sm */
     .navigation {
 
         ul {
@@ -204,7 +220,9 @@ footer {
         }
 
         .splash {
-            margin-top: 40px;
+            margin-top: 60px;
+            height: 100%;
+            margin-bottom: 75px;
         }
 
         li {
@@ -216,4 +234,22 @@ footer {
             font-size: 70px;
         }
     }
+
+    /* Services-mobile-sm */
+
+    .services {
+        height: 100%;
+        margin-top: 30px;
+        p {
+            
+        }
+    }
+
+    /* Footer-mobile-sm */
+
+    .social {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
 }

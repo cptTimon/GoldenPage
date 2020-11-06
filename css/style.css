@@ -159,7 +159,17 @@ p {
 .portfolio h5 {
   font-family: "Quattrocento Sans", sans-serif;
   font-weight: bold;
-  margin-top: 12px;
+  margin-top: 16px;
+}
+
+.portfolio a {
+  color: #212529;
+}
+
+.portfolio a:hover {
+  color: #e9d820;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /* Footer */
@@ -169,6 +179,8 @@ footer {
 
 .social {
   text-align: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .social i {
@@ -181,20 +193,39 @@ footer {
   margin: auto 10px;
 }
 
+.social p {
+  font-size: 20px;
+}
+
 /* Media */
 @media (max-width: 767px) {
+  /* Navigation-mobile-sm */
   .navigation ul {
     text-align: left;
     margin-top: 25px;
   }
   .navigation .splash {
-    margin-top: 40px;
+    margin-top: 60px;
+    height: 100%;
+    margin-bottom: 75px;
   }
   .navigation li {
     display: block;
   }
   .navigation h1 {
     font-size: 70px;
+  }
+  /* Services-mobile-sm */
+  .services {
+    height: 100%;
+    margin-top: 30px;
+  }
+  /* Footer-mobile-sm */
+  .social {
+    -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+    -ms-flex-align: center;
+        align-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
