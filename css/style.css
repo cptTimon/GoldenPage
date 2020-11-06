@@ -162,6 +162,11 @@ p {
   margin-top: 12px;
 }
 
+/* Footer */
+.social {
+  text-align: center;
+}
+
 /* Media */
 @media (max-width: 767px) {
   .navigation li {
