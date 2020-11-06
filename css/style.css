@@ -193,6 +193,10 @@ footer {
   margin: auto 10px;
 }
 
+.social i:hover {
+  transform: scale(1.15);
+}
+
 .social p {
   font-size: 20px;
 }
