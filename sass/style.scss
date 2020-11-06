@@ -43,7 +43,7 @@ p {
         list-style-type: none;
         text-align: right;
 
-        a{
+        a {
             font-weight: bold;
             font-size: 30xpx;
         }
@@ -150,11 +150,11 @@ p {
         margin-top: 20px;
 
     }
-    .card{
+    .card {
         height: 350px;
         width: 100%;
         padding: 0;
-        margin: 20px 0;
+        margin: 20px 20px;
     }
 
     img {
@@ -172,8 +172,24 @@ p {
 
 /* Footer */
 
+footer {
+    margin: 20px auto;
+}
+
 .social {
     text-align: center;
+
+    i {
+        font-size: 40px;
+        height: 70px;
+        width: 70px;
+        border-radius: 25px;
+        line-height: 70px;
+        color: #e9d820;
+        margin: auto 10px;
+    }
+
+
 }
 
 /* Media */
@@ -182,9 +198,22 @@ p {
 
     .navigation {
 
+        ul {
+            text-align: left;
+            margin-top: 25px;
+        }
+
+        .splash {
+            margin-top: 40px;
+        }
+
         li {
 
             display: block;
+        }
+
+        h1 {
+            font-size: 70px;
         }
     }
 }

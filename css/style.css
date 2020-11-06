@@ -147,7 +147,7 @@ p {
   height: 350px;
   width: 100%;
   padding: 0;
-  margin: 20px 0;
+  margin: 20px 20px;
 }
 
 .portfolio img {
@@ -163,14 +163,38 @@ p {
 }
 
 /* Footer */
+footer {
+  margin: 20px auto;
+}
+
 .social {
   text-align: center;
 }
 
+.social i {
+  font-size: 40px;
+  height: 70px;
+  width: 70px;
+  border-radius: 25px;
+  line-height: 70px;
+  color: #e9d820;
+  margin: auto 10px;
+}
+
 /* Media */
 @media (max-width: 767px) {
+  .navigation ul {
+    text-align: left;
+    margin-top: 25px;
+  }
+  .navigation .splash {
+    margin-top: 40px;
+  }
   .navigation li {
     display: block;
+  }
+  .navigation h1 {
+    font-size: 70px;
   }
 }
 /*# sourceMappingURL=style.css.map */
