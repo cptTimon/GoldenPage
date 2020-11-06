@@ -136,11 +136,9 @@ p {
     }
 }
 
-
 /* Portfolio */
 
 .portfolio {
-
     background-color: #E6F2F1;
     text-align: center;
     padding: 30px 15px;
@@ -216,8 +214,8 @@ footer {
 @media (max-width: 767px) {
 
 /* Navigation-mobile-sm */
-    .navigation {
 
+    .navigation {
         ul {
             text-align: left;
             margin-top: 25px;
@@ -244,9 +242,6 @@ footer {
     .services {
         height: 100%;
         margin-top: 30px;
-        p {
-            
-        }
     }
 
     /* Footer-mobile-sm */
@@ -255,5 +250,4 @@ footer {
         justify-content: space-evenly;
         align-items: center;
     }
-
 }
